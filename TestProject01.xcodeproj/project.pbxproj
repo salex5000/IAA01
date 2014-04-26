@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DD9A6E7190B941700F9038C /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD9A6E6190B941700F9038C /* Animal.m */; };
 		4DDDAA221909067A00C6D224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDAA211909067A00C6D224 /* Foundation.framework */; };
 		4DDDAA251909067A00C6D224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDAA241909067A00C6D224 /* main.m */; };
 		4DDDAA291909067A00C6D224 /* TestProject01.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DDDAA281909067A00C6D224 /* TestProject01.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4DD9A6E5190B941700F9038C /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		4DD9A6E6190B941700F9038C /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		4DDDAA1E1909067A00C6D224 /* TestProject01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestProject01; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDDAA211909067A00C6D224 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DDDAA241909067A00C6D224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 		4DDDAA261909067A00C6D224 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DD9A6E5190B941700F9038C /* Animal.h */,
+				4DD9A6E6190B941700F9038C /* Animal.m */,
 				4DDDAA271909067A00C6D224 /* TestProject01-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDDAA251909067A00C6D224 /* main.m in Sources */,
+				4DD9A6E7190B941700F9038C /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +259,7 @@
 				4DDDAA2E1909067A00C6D224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
